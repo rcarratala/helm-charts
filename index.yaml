@@ -1,0 +1,51 @@
+apiVersion: v1
+entries:
+  argocd:
+  - apiVersion: v2
+    appVersion: 1.6.1
+    created: "2022-01-19T16:13:06.780028328+01:00"
+    description: A Helm chart for installing argocd operator and a basic ArgoCD instance
+    digest: 0e233dd39c35c48a82ca1650f26c881a21d5657ccfa69ef94c7eb7ea24580db2
+    name: argocd
+    type: application
+    urls:
+    - https://rcarrata.github.io/rcarrata-charts/argocd-0.1.0.tgz
+    version: 0.1.0
+  bootstrap-projects:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-01-19T16:13:06.780838468+01:00"
+    description: A Helm chart for creating initial namespaces
+    digest: 83e590bae3995b7792133fb0ea9a3a5f91ba5139e5ee293e714429d6e63ceead
+    name: bootstrap-projects
+    type: application
+    urls:
+    - https://rcarrata.github.io/rcarrata-charts/bootstrap-projects-0.1.0.tgz
+    version: 0.1.0
+  gitea:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2022-01-19T16:13:06.782747113+01:00"
+    description: A Helm chart for Kubernetes
+    digest: a1bb1155fba98d86e9158092d76ee20b480574ecf31763ccdf5ce3778eca6ab4
+    home: https://github.com/rcarrata/rcarrata-charts
+    icon: https://raw.githubusercontent.com/go-gitea/gitea/ee60f27aec0f75a34ae62841ed52579c0c20dcfa/assets/logo.svg
+    maintainers:
+    - name: infosec812
+    - name: rcarrata
+    name: gitea
+    type: application
+    urls:
+    - https://rcarrata.github.io/rcarrata-charts/gitea-0.1.0.tgz
+    version: 0.1.0
+  mlbparks-eap:
+  - apiVersion: v2
+    created: "2022-01-19T16:13:06.783763733+01:00"
+    description: Application template for MLB Parks application on EAP 7 & MongoDB
+      built using STI
+    digest: f1e57aa5259e257a83e9aac8bf8821f675cc6ef631001247eb41d9105f53e820
+    name: mlbparks-eap
+    urls:
+    - https://rcarrata.github.io/rcarrata-charts/mlbparks-eap-v0.0.1.tgz
+    version: v0.0.1
+generated: "2022-01-19T16:13:06.778650016+01:00"
