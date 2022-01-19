@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  gitea:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2022-01-19T18:03:24.096762094Z"
+    description: A Helm chart for Kubernetes
+    digest: 4397f5fbec728a8ff7495bc3228af72249e16bd2f882c7583f7b2fe9e8c68f06
+    home: https://github.com/rcarrata/rcarrata-charts
+    icon: https://raw.githubusercontent.com/go-gitea/gitea/ee60f27aec0f75a34ae62841ed52579c0c20dcfa/assets/logo.svg
+    maintainers:
+    - name: infosec812
+    - name: rcarrata
+    name: gitea
+    type: application
+    urls:
+    - https://github.com/rcarratala/helm-charts/releases/download/gitea-0.1.0/gitea-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-01-19T18:03:23.865269166Z"
