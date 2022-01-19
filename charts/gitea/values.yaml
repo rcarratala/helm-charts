@@ -21,7 +21,7 @@ signing: default
 
 ## YOU MUST SPECIFY THE DB PASSWORD!!!
 db: {}
-#   password: 'S00perSekretP@ssw0rd$'
+#   password: 'xxxx'
 #   name: gitea-db
 #   user: gitea
 #   imagestream_name: postgresql
